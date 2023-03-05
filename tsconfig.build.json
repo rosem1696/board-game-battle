@@ -1,0 +1,15 @@
+{
+  "ts-node": {
+    "transpileOnly": true,
+    "moduleTypes": {
+      "esbuild.ts": "cjs",
+      // Globs are also supported with the same behavior as tsconfig "include"
+      "**/esbuild.ts": "cjs",
+      "**/*esbuild*": "cjs"
+    }
+  },
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es2020"
+  }
+}

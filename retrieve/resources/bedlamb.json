@@ -1,0 +1,124 @@
+{
+  "games": [
+    {
+      "id": "zXKyv0Jx17",
+      "handle": "bedlamb",
+      "url": "https://www.boardgameatlas.com/game/zXKyv0Jx17/bedlamb",
+      "bga_edit_url": "https://www.boardgameatlas.com/game/zXKyv0Jx17/edit",
+      "template_url": "/products/listing?objectId=zXKyv0Jx17&product_line=Board Games&type=product",
+      "name": "Bedlamb",
+      "price": "0.00",
+      "price_ca": "0.00",
+      "price_uk": "0.00",
+      "price_au": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "year_published": 2011,
+      "min_players": 2,
+      "max_players": 4,
+      "player_counts": [2, 3, 4],
+      "min_playtime": 15,
+      "max_playtime": 15,
+      "min_age": 14,
+      "description": "",
+      "commentary": "",
+      "faq": "",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1557948097160",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1557948097160",
+      "matches_specs": null,
+      "specs": [],
+      "mechanics": [
+        {
+          "id": "WPytek5P8l",
+          "url": "https://www.boardgameatlas.com/mechanic/WPytek5P8l/undefined"
+        },
+        {
+          "id": "RwgEONzIzc",
+          "url": "https://www.boardgameatlas.com/mechanic/RwgEONzIzc/undefined"
+        }
+      ],
+      "categories": [],
+      "publishers": [
+        {
+          "id": "KIOqDFY5h9",
+          "num_games": null,
+          "score": 9999999,
+          "game": {},
+          "url": "https://www.boardgameatlas.com/publisher/KIOqDFY5h9/undefined",
+          "images": {
+            "thumb": null,
+            "small": null,
+            "medium": null,
+            "large": null,
+            "original": null
+          }
+        }
+      ],
+      "designers": [
+        {
+          "id": "70gHHktzOz",
+          "num_games": null,
+          "score": 9999999,
+          "game": {},
+          "url": "https://www.boardgameatlas.com/designer/70gHHktzOz/undefined",
+          "images": {
+            "thumb": null,
+            "small": null,
+            "medium": null,
+            "large": null,
+            "original": null
+          }
+        }
+      ],
+      "primary_publisher": {
+        "name": "Asmadi Games",
+        "id": "KIOqDFY5h9",
+        "url": "https://www.boardgameatlas.com/publisher/KIOqDFY5h9/asmadi-games"
+      },
+      "primary_designer": {
+        "name": "Chris Cieslik",
+        "id": "70gHHktzOz",
+        "url": "https://www.boardgameatlas.com/designer/70gHHktzOz/chris-cieslik"
+      },
+      "developers": [],
+      "related_to": [],
+      "related_as": [],
+      "artists": ["Ian Chase", "Sarah Farooqi"],
+      "names": [],
+      "rules_url": null,
+      "official_url": null,
+      "comment_count": 0,
+      "num_user_ratings": 1,
+      "average_user_rating": 2,
+      "active": true,
+      "num_user_complexity_votes": 0,
+      "average_learning_complexity": 0,
+      "average_strategy_complexity": 0,
+      "visits": 49,
+      "lists": 4,
+      "mentions": 0,
+      "links": 0,
+      "plays": 4,
+      "rank": 9999999,
+      "type": "game",
+      "num_distributors": 0,
+      "trending_rank": 0,
+      "listing_clicks": 0,
+      "is_historical_low": false,
+      "edit_url": "/products/listing-edit?objectId=zXKyv0Jx17&product_line=Board Games&type=product",
+      "players": "2-4",
+      "playtime": "15",
+      "price_text": "Price: N/A",
+      "tags": [],
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1557948097160",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1557948097160",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1557948097160",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1557948097160",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1557948097160"
+      },
+      "description_preview": ""
+    }
+  ],
+  "count": 1
+}

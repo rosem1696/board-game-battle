@@ -1,0 +1,324 @@
+{
+  "games": [
+    {
+      "id": "vBBhuJjFVE",
+      "handle": "food-chain-magnate",
+      "url": "https://www.boardgameatlas.com/game/vBBhuJjFVE/food-chain-magnate",
+      "bga_edit_url": "https://www.boardgameatlas.com/game/vBBhuJjFVE/edit",
+      "template_url": "/products/listing?objectId=vBBhuJjFVE&product_line=Board Games&type=product",
+      "name": "Food Chain Magnate",
+      "price": "99.00",
+      "price_ca": "124.99",
+      "price_uk": "0.00",
+      "price_au": "199.95",
+      "msrp": 150,
+      "msrps": [{ "country": "US", "price": 150 }],
+      "discount": "0.34",
+      "year_published": 2015,
+      "min_players": 2,
+      "max_players": 5,
+      "player_counts": [2, 3, 4, 5],
+      "min_playtime": 120,
+      "max_playtime": 240,
+      "min_age": 14,
+      "description": "<p><strong>Food Chain Magnate</strong> is a heavy strategy game about building a fast food chain. The focus is on building your company using a card-driven (human) resource management system. Players compete on a variable city map through purchasing, marketing and sales, and on a job market for key staff members.</p>",
+      "commentary": "",
+      "faq": "",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1577924173686",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1577924173686",
+      "matches_specs": null,
+      "specs": [],
+      "mechanics": [
+        {
+          "id": "iWODHwRGuU",
+          "url": "https://www.boardgameatlas.com/mechanic/iWODHwRGuU/undefined"
+        },
+        {
+          "id": "wV5peB05xs",
+          "url": "https://www.boardgameatlas.com/mechanic/wV5peB05xs/undefined"
+        },
+        {
+          "id": "6RZAs0CCpF",
+          "url": "https://www.boardgameatlas.com/mechanic/6RZAs0CCpF/undefined"
+        },
+        {
+          "id": "wPcKOr57ig",
+          "url": "https://www.boardgameatlas.com/mechanic/wPcKOr57ig/undefined"
+        },
+        {
+          "id": "U3zhCQH7Et",
+          "url": "https://www.boardgameatlas.com/mechanic/U3zhCQH7Et/undefined"
+        },
+        {
+          "id": "ohABM4GjbC",
+          "url": "https://www.boardgameatlas.com/mechanic/ohABM4GjbC/undefined"
+        },
+        {
+          "id": "DEvPj5twid",
+          "url": "https://www.boardgameatlas.com/mechanic/DEvPj5twid/undefined"
+        },
+        {
+          "id": "za4PP1LH00",
+          "url": "https://www.boardgameatlas.com/mechanic/za4PP1LH00/undefined"
+        }
+      ],
+      "categories": [
+        {
+          "id": "5J6M28LoWA",
+          "url": "https://www.boardgameatlas.com/category/5J6M28LoWA/undefined"
+        },
+        {
+          "id": "N0TkEGfEsF",
+          "url": "https://www.boardgameatlas.com/category/N0TkEGfEsF/undefined"
+        },
+        {
+          "id": "zqFmdU4Fp2",
+          "url": "https://www.boardgameatlas.com/category/zqFmdU4Fp2/undefined"
+        },
+        {
+          "id": "NCHErDO8JK",
+          "url": "https://www.boardgameatlas.com/category/NCHErDO8JK/undefined"
+        }
+      ],
+      "publishers": [
+        {
+          "id": "FcOewEIr5d",
+          "num_games": null,
+          "score": 9999999,
+          "game": {},
+          "url": "https://www.boardgameatlas.com/publisher/FcOewEIr5d/undefined",
+          "images": {
+            "thumb": null,
+            "small": null,
+            "medium": null,
+            "large": null,
+            "original": null
+          }
+        },
+        {
+          "id": "tm3Gi5QR8G",
+          "num_games": null,
+          "score": 9999999,
+          "game": {},
+          "url": "https://www.boardgameatlas.com/publisher/tm3Gi5QR8G/undefined",
+          "images": {
+            "thumb": null,
+            "small": null,
+            "medium": null,
+            "large": null,
+            "original": null
+          }
+        },
+        {
+          "id": "ClTxHJjkCW",
+          "num_games": null,
+          "score": 9999999,
+          "game": {},
+          "url": "https://www.boardgameatlas.com/publisher/ClTxHJjkCW/undefined",
+          "images": {
+            "thumb": null,
+            "small": null,
+            "medium": null,
+            "large": null,
+            "original": null
+          }
+        },
+        {
+          "id": "pQQBX5EBdn",
+          "num_games": null,
+          "score": 9999999,
+          "game": {},
+          "url": "https://www.boardgameatlas.com/publisher/pQQBX5EBdn/undefined",
+          "images": {
+            "thumb": null,
+            "small": null,
+            "medium": null,
+            "large": null,
+            "original": null
+          }
+        }
+      ],
+      "designers": [
+        {
+          "id": "clJfuzA8ub",
+          "num_games": null,
+          "score": 9999999,
+          "game": {},
+          "url": "https://www.boardgameatlas.com/designer/clJfuzA8ub/undefined",
+          "images": {
+            "thumb": null,
+            "small": null,
+            "medium": null,
+            "large": null,
+            "original": null
+          }
+        },
+        {
+          "id": "L1XBZ4rpC0",
+          "num_games": null,
+          "score": 9999999,
+          "game": {},
+          "url": "https://www.boardgameatlas.com/designer/L1XBZ4rpC0/undefined",
+          "images": {
+            "thumb": null,
+            "small": null,
+            "medium": null,
+            "large": null,
+            "original": null
+          }
+        }
+      ],
+      "primary_publisher": {
+        "id": "FcOewEIr5d",
+        "name": "Splotter Spellen",
+        "url": "https://www.boardgameatlas.com/publisher/FcOewEIr5d/splotter-spellen"
+      },
+      "primary_designer": {
+        "id": "clJfuzA8ub",
+        "name": "Jeroen Doumen",
+        "url": "https://www.boardgameatlas.com/designer/clJfuzA8ub/jeroen-doumen"
+      },
+      "developers": [],
+      "related_to": [],
+      "related_as": [],
+      "artists": ["Iris de Haan", "Ynze Moedt"],
+      "names": [],
+      "rules_url": "https://www.fgbradleys.com/rules/rules4/Food%20Chain%20Magnate%20-%20rules.pdf",
+      "amazon_rank": 38937,
+      "cs_rating": 4.5,
+      "official_url": "https://www.splottershop.com/ProductDetails.asp?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "comment_count": 1,
+      "num_user_ratings": 226,
+      "average_user_rating": 4.102941879933029,
+      "weight_amount": 3.81,
+      "weight_units": "lbs ",
+      "size_height": 12.2,
+      "size_depth": 2,
+      "size_units": "inches ",
+      "historical_low_prices": [
+        {
+          "country": "UK",
+          "date": "2021-06-03T06:40:03.330Z",
+          "price": 78,
+          "isLow": false
+        },
+        {
+          "country": "CA",
+          "date": "2021-11-23T01:22:58.484Z",
+          "price": 399.99,
+          "isLow": false
+        },
+        {
+          "country": "AU",
+          "date": "2021-12-03T00:52:04.490Z",
+          "price": 152.95,
+          "isLow": false
+        },
+        {
+          "country": "US",
+          "date": "2023-01-12T20:59:18.359Z",
+          "price": 99,
+          "isLow": false
+        }
+      ],
+      "active": true,
+      "num_user_complexity_votes": 4,
+      "average_learning_complexity": 3,
+      "average_strategy_complexity": 4.25,
+      "visits": 11336,
+      "lists": 1128,
+      "mentions": 57,
+      "links": 7,
+      "plays": 1354,
+      "rank": 81,
+      "type": "game",
+      "upc": "859573004393",
+      "num_distributors": 1,
+      "trending_rank": 0,
+      "listing_clicks": 33,
+      "is_historical_low": false,
+      "skus": [
+        "SPLFCM",
+        "2148794017",
+        "SPLFCM-DD",
+        "BG-002279-001",
+        "2149286158",
+        "SPLFCM-DDD",
+        "859573004393",
+        "2149263187",
+        "FOODCHAIN",
+        "86402",
+        "PGSSPLFCM",
+        "SS-FCM",
+        "FCM05",
+        "28658",
+        "034026 #0162",
+        "61581:64851",
+        "34026 #0211",
+        "E_FOODCHAIN_XS",
+        "FoodChainMagnate",
+        "MDGFO01381",
+        "SPLFCM - Blue",
+        "SPLFCM-DING",
+        "SPO-FCM01-2",
+        "Ballarat|a0af03e6-3cd1-92c7-2db5-7e2374ed0b14",
+        "CRDHS-DF07D4A6"
+      ],
+      "sku_objects": [
+        { "name": "Boarding School Games", "sku": "SPLFCM" },
+        { "name": "Noble Knight Games", "sku": "2148794017" },
+        { "name": "Boardlandia", "sku": "SPLFCM-DD" },
+        { "name": "Meeples and Milkshakes", "sku": "BG-002279-001" },
+        { "name": "Noble Knight Games", "sku": "2149286158" },
+        { "name": "Boardlandia", "sku": "SPLFCM-DDD" },
+        { "name": "LVLUP GAMES", "sku": "859573004393" },
+        { "name": "Noble Knight Games", "sku": "2149263187" },
+        { "name": "Imaginaire Shop", "sku": "FOODCHAIN" },
+        { "name": "Game Shack Inc.", "sku": "86402" },
+        { "name": "WoodForSheep Hobbies Ltd.", "sku": "PGSSPLFCM" },
+        { "name": "More Than Meeples", "sku": "SS-FCM" },
+        { "name": "Advent Games", "sku": "FCM05" },
+        { "name": "Hanabee", "sku": "28658" },
+        { "name": "Funagain Games", "sku": "034026 #0162" },
+        { "name": "BoardGameCo", "sku": "61581:64851" },
+        { "name": "Funagain Games", "sku": "34026 #0211" },
+        { "name": "Gameology", "sku": "E_FOODCHAIN_XS" },
+        { "name": "Good Games", "sku": "FoodChainMagnate" },
+        { "name": "Mr. Dice Guy", "sku": "MDGFO01381" },
+        { "name": "BoardGameBliss Inc", "sku": "SPLFCM - Blue" },
+        { "name": "Game Nerdz", "sku": "SPLFCM-DING" },
+        { "name": "Philibert", "sku": "SPO-FCM01-2" },
+        {
+          "name": "Guf",
+          "sku": "Ballarat|a0af03e6-3cd1-92c7-2db5-7e2374ed0b14"
+        },
+        { "name": "Card Haus", "sku": "CRDHS-DF07D4A6" }
+      ],
+      "edit_url": "/products/listing-edit?objectId=vBBhuJjFVE&product_line=Board Games&type=product",
+      "players": "2-5",
+      "playtime": "120-240",
+      "msrp_text": "$150.00",
+      "price_text": "$99.00",
+      "tags": [
+        "快餐大亨",
+        "快餐連鎖大亨",
+        "푸드 체인 Magnate",
+        "Food Chain Magnate",
+        "FOOD CHAIN MAGNATE",
+        "Food Chain Magnate - Dent and Ding (Major Damage)",
+        "FOOD CHAIN MAGNATE -  BASE GAME (ENGLISH)",
+        "Food Chain Magnate w/Wooden Insert",
+        "Food Chain Magnate w/Upgraded Meeples!"
+      ],
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1577924173686",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1577924173686",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1577924173686",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1577924173686",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1577924173686"
+      },
+      "description_preview": "  Food Chain Magnate  is a heavy strategy game about building a fast food chain. The focus is on building your company using a card-driven (human) resource management system. Players compete on a variable city map through purchasing, marketing and sales, and on a job market for key staff members. "
+    }
+  ],
+  "count": 1
+}
