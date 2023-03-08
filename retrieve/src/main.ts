@@ -1,30 +1,41 @@
-import { search } from "boardGameAtlas.js";
+import { RetrieveService } from "retrieveService.js";
 
-async function searchExact(name: string) {
-  let results = await search({ name: name, fuzzy_match: false, exact: true });
+async function main() {
+  const retrieveService = await RetrieveService.LoadFromAtlas();
+  if (!retrieveService) {
+    console.error("Unable to initialize retrieval service");
+    return;
+  }
+  try {
+    await retrieveService.loadGamesCsv();
+  } catch (error) {
+    console.error(error);
+    console.error("Encountered error loading CSV file");
+    return;
+  }
+  try {
+    console.log("Writing games to CSV");
+    await retrieveService.writeGamesCsv();
+
+    console.log("Writing mechanics to CSV");
+    await retrieveService.writeMechanicsCsv();
+
+    console.log("Writing categories to CSV");
+    await retrieveService.writeCategoriesCsv();
+
+    console.log("Exporting retrieve service data as JSON");
+    await retrieveService.exportJson();
+  } catch (error) {
+    console.error(error);
+    console.error("Encountered error exporting data from service");
+  }
+
+  const misses = retrieveService.getMisses();
+  if (misses.length > 0) {
+    console.log(`\nUnable to retrieve data for ${misses.length} games\n`);
+    misses.forEach((game) => console.log(game.Title));
+  }
 }
-
-async function searchFuzzy(name: string) {
-  let results = await search({ name: name, fuzzy_match: false, exact: true });
-}
-
-async function main() {}
 
 await main();
-
-//await searchExact("Food Chain Magnate");
-// const props = new Map<string, number>();
-// for (let i = 0; i <= 300; i++) {
-//   const game = await searchRandom();
-//   console.log(`${game.name} - ${JSON.stringify(game.developers)}`);
-//   Object.keys(game).forEach((key) => {
-//     let count = props.get(key) || 0;
-//     props.set(key, count + 1);
-//   });
-// }
-
-// props.forEach((count, key) => {
-//   if (count < 30) {
-//     console.log(`${key} - ${300 - count} misses`);
-//   }
-// });
+console.log("Exiting");

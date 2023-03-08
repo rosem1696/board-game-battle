@@ -1,6 +1,6 @@
 import get, { SearchParameters as BaseParameters } from "got";
 
-export interface Game {
+export interface AtlasGame {
   id: string;
   name: string;
   names: string[];
@@ -38,7 +38,7 @@ export interface BgaIdWithName extends BgaId {
 }
 
 export interface SearchResults {
-  games: Game[];
+  games: AtlasGame[];
   count: number;
 }
 
@@ -50,6 +50,34 @@ export interface MechanicsResults {
   mechanics: BgaIdWithName[];
 }
 
+export const emptyAtlasGame: AtlasGame = {
+  id: "",
+  name: "",
+  names: [],
+  year_published: null,
+  min_players: null,
+  max_players: null,
+  min_playtime: null,
+  max_playtime: null,
+  min_age: null,
+  description: null,
+  description_preview: null,
+  thumb_url: null,
+  image_url: null,
+  url: null,
+  price: null,
+  msrp: null,
+  discount: null,
+  primary_publisher: null,
+  primary_designer: null,
+  mechanics: [],
+  categories: [],
+  artists: [],
+  reddit_all_time_count: null,
+  reddit_week_count: null,
+  reddit_day_count: null,
+};
+
 const BgaBase = "https://api.boardgameatlas.com/api/";
 
 const clientIDParam: BaseParameters = {
@@ -58,8 +86,8 @@ const clientIDParam: BaseParameters = {
 
 enum ApiKey {
   Search = "search",
-  Categories = "categories",
-  Mechanics = "mechanics",
+  Categories = "game/categories",
+  Mechanics = "game/mechanics",
 }
 
 export interface ApiSearchParameters extends BaseParameters {
@@ -77,39 +105,30 @@ function formParams<T extends BaseParameters>(param: T) {
   return { ...param, ...clientIDParam };
 }
 
+function throttlingDelay() {
+  return new Promise<void>((resolve) => {
+    setTimeout(resolve, 2000);
+  });
+}
+
 export async function search(params: ApiSearchParameters) {
-  try {
-    const param = formParams(params);
-    const games: SearchResults = await get(getUrl(ApiKey.Search), {
-      searchParams: param,
-    }).json();
-    return games;
-  } catch (error) {
-    console.error(error);
-    return undefined;
-  }
+  await throttlingDelay();
+  const param = formParams(params);
+  return (await get(getUrl(ApiKey.Search), {
+    searchParams: param,
+  }).json()) as SearchResults;
 }
 
-export async function categories() {
-  try {
-    const categories: CategoriesResults = await get(getUrl(ApiKey.Categories), {
-      searchParams: clientIDParam,
-    }).json();
-    return categories;
-  } catch (error) {
-    console.error(error);
-    return undefined;
-  }
+export async function getCategories() {
+  await throttlingDelay();
+  return (await get(getUrl(ApiKey.Categories), {
+    searchParams: clientIDParam,
+  }).json()) as CategoriesResults;
 }
 
-export async function mechanics() {
-  try {
-    const mechanics: MechanicsResults = await get(getUrl(ApiKey.Mechanics), {
-      searchParams: clientIDParam,
-    }).json();
-    return mechanics;
-  } catch (error) {
-    console.error(error);
-    return undefined;
-  }
+export async function getMechanics() {
+  await throttlingDelay();
+  return (await get(getUrl(ApiKey.Mechanics), {
+    searchParams: clientIDParam,
+  }).json()) as MechanicsResults;
 }
