@@ -248,17 +248,17 @@ function assignScores(list: ScoringGame[], targetGame: ScoringGame) {
 
 enum ScoringWeights {
   // Additive Weights
-  sameMax = 20,
-  nearMax = 10,
-  sameMin = 5,
-  nearPlaytimeMax = 5,
-  nearPlaytimeMin = 5,
-  sameSize = 15,
+  sameMax = 40,
+  nearMax = 20,
+  sameMin = 10,
+  nearPlaytimeMax = 15,
+  nearPlaytimeMin = 15,
+  sameSize = 50,
 
   // Multiplicative Weights
-  sameMaxMin = 1.5,
-  samePlaytimeMax = 1.2,
-  samePlaytimeMin = 1.2,
+  sameMaxMin = 3,
+  samePlaytimeMax = 1.5,
+  samePlaytimeMin = 1.5,
   expansion = 3,
 }
 

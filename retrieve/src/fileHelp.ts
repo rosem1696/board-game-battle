@@ -5,11 +5,14 @@ export async function fileExists(path: string) {
 }
 
 export async function readFileJSON<T>(file: string): Promise<T | undefined> {
-  if (!(await stat(file))) {
+  let json: string;
+  try {
+    json = await readFile(file, "utf-8");
+  } catch (e) {
     console.error(`${file} does not exist`);
     return undefined;
   }
-  const json = await readFile(file, "utf-8");
+
   const data = JSON.parse(json);
   if (data == undefined) {
     throw new Error(`Error loading in data from ${file}`);

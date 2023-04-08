@@ -12,7 +12,7 @@ Do a tournament style ranking system in which games face off against one another
 
 - 88 games = 44 initial pairings
 - 44 pairs, 44 advance
-- 22 pairs, 22 advance 
+- 22 pairs, 22 advance
 - 11 pairs, 11 advance
 - 4 pairs, 8 advance
 - 4 pairs, 4 advance
@@ -42,10 +42,10 @@ Use a score system to determine randomness
 - Base score of 10
 - Same max players = + 20
 - Max Player +/- 1 = +10
-- Min Player same =  +5
-- Same Min &  Max = * 1.5
+- Min Player same = +5
+- Same Min & Max = \* 1.5
 - Playtime within 30 min = +10
-- Playtime Exact = * 1.2
+- Playtime Exact = \* 1.2
 - Same Size = +20
 
 Select a target game at random. Calculate the score for each other game in regards to the target.
@@ -53,5 +53,3 @@ Select a target game at random. Calculate the score for each other game in regar
 Generate a number between 0 and the total scores of all games. Starting with 0, Iterate through the games adding their score to a total. Stop when the total goes over the rolled number.
 
 Remove the target and selected games from the list and add them as a pairing.
-
- 
