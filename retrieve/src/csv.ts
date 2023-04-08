@@ -1,34 +1,22 @@
 import { parseFile, writeToPath } from "fast-csv";
 import path from "path";
 
-const inputGamesFile = path.resolve(
-  __dirname,
-  "resources/Board Games - Games.csv"
-);
-const outputGamesFile = path.resolve(
-  __dirname,
-  "resources/BoardGameDetails.csv"
-);
-const outputCategoriesFile = path.resolve(
-  __dirname,
-  "resources/BoardGameCategories.csv"
-);
-const outputMechanicsFile = path.resolve(
-  __dirname,
-  "./resources/BoardGameMechanics.csv"
-);
+const inputGamesFile = path.resolve("./resources/Board Games - Games.csv");
+const outputGamesFile = "./resources/BoardGameDetails.csv";
+const outputCategoriesFile = "./resources/BoardGameCategories.csv";
+const outputMechanicsFile = "./resources/BoardGameMechanics.csv";
 
 export enum GameCategory {
-  "Keep",
-  "Bracket",
+  Keep = "Keep",
+  Bracket = "Bracket",
 }
 
 export enum GameSize {
-  "Tiny",
-  "Small",
-  "Medium",
-  "Large",
-  "Huge",
+  Tiny = "Tiny",
+  Small = "Small",
+  Medium = "Medium",
+  Large = "Large",
+  Huge = "Huge",
 }
 
 export interface BoardGameRow {
@@ -64,14 +52,16 @@ export async function readGames() {
     parseFile(inputGamesFile, { headers: true })
       .on("error", (error) => reject(error))
       .on("data", (row) => {
-        games.push({
-          Title: row.Title as string,
-          Category: row.Category as GameCategory,
-          Size: row.Size as GameSize,
-          "Not Game": row["Not Game"] === "TRUE",
-          Expansion: row.Expansion === "TRUE",
-          Stolen: row.Stolen === "TRUE",
-        });
+        if (row.Title) {
+          games.push({
+            Title: row.Title as string,
+            Category: row.Category as GameCategory,
+            Size: row.Size as GameSize,
+            "Not Game": row["Not Game"] === "TRUE",
+            Expansion: row.Expansion === "TRUE",
+            Stolen: row.Stolen === "TRUE",
+          });
+        }
       })
       .on("end", (rowCount: number) => {
         console.log(`Finished parsing ${rowCount} rows`);

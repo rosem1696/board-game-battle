@@ -1,7 +1,9 @@
 import get, { SearchParameters as BaseParameters } from "got";
 
+export type GameID = string;
+
 export interface AtlasGame {
-  id: string;
+  id: GameID;
   name: string;
   names: string[];
   year_published: number | null;
@@ -29,7 +31,7 @@ export interface AtlasGame {
 }
 
 export interface BgaId {
-  id: string;
+  id: GameID;
   url: string | null;
 }
 

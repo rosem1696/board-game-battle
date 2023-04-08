@@ -6,6 +6,7 @@ import {
   MechanicsResults,
   search,
   emptyAtlasGame,
+  GameID,
 } from "boardGameAtlas.js";
 import {
   BoardGameDetailRow,
@@ -16,12 +17,12 @@ import {
   writeMechanics,
 } from "csv.js";
 import prompts from "prompts";
-import { writeFile } from "fs/promises";
-import path from "path";
+import { writeFile, readFile } from "fs/promises";
+import exp from "constants";
 
-const exportFile = path.resolve(__dirname, "resources/boardGameData.json");
+const exportFile = "./resources/boardGameData.json";
 
-interface FullGame extends BoardGameRow, AtlasGame {}
+export interface FullGame extends BoardGameRow, AtlasGame {}
 
 export class RetrieveService {
   mechanicsRes: MechanicsResults;
@@ -65,6 +66,29 @@ export class RetrieveService {
       console.error("Encountered error retrieving mechanics and categories");
       return undefined;
     }
+  }
+
+  static async LoadJSON(): Promise<RetrieveService | undefined> {
+    const json = await readFile(exportFile, "utf-8");
+    const data = JSON.parse(json);
+    if (data == undefined) {
+      console.log("Error loading in game data");
+      return undefined;
+    }
+    const service = new RetrieveService(
+      { mechanics: data.mechanics },
+      { categories: data.categories }
+    );
+    service.games = data.games;
+    return service;
+  }
+
+  gamesAsMap(): Map<GameID, FullGame> {
+    const map = new Map<GameID, FullGame>();
+    this.games.forEach((game) => {
+      map.set(game.id, game);
+    });
+    return map;
   }
 
   /**
@@ -195,8 +219,8 @@ export class RetrieveService {
    */
   async exportJson() {
     const exportData = {
-      ...this.mechanics,
-      ...this.categories,
+      ...this.mechanicsRes,
+      ...this.categoriesRes,
       games: this.games,
     };
     await writeFile(exportFile, JSON.stringify(exportData, null, "\t"));
@@ -266,7 +290,7 @@ function fillInDetailRow(game: FullGame): BoardGameDetailRow {
     "Not Game": game["Not Game"],
     Expansion: game.Expansion,
     Stolen: game.Stolen,
-    "Atlas Name": removeNull(game.year_published),
+    "Atlas Name": removeNull(game.name),
     "Year Published": removeNull(game.year_published),
     "Min Players": removeNull(game.min_players),
     "Max Players": removeNull(game.max_players),
