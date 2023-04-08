@@ -6,11 +6,6 @@ import { tournament } from "tournament/tournament.js";
 
 const programs: prompts.Choice[] = [
   {
-    title: "Retrieve",
-    value: retrieve,
-    description: "Retrieve board game info from Board Game Atlas",
-  },
-  {
     title: "Pairings",
     value: pairings,
     description: "Generate initial pairings",
@@ -19,6 +14,11 @@ const programs: prompts.Choice[] = [
     title: "Tournament",
     value: tournament,
     description: "Enter tournament records",
+  },
+  {
+    title: "Retrieve",
+    value: retrieve,
+    description: "Retrieve board game info from Board Game Atlas",
   },
 ];
 

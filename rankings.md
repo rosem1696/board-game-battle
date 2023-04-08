@@ -29,6 +29,8 @@ Ties are broken first using average number of votes.
 
 Ties after the first breaker are broken by number of votes by Will
 
+Ties after Will are broken by if the game won in the first round
+
 Final ties will need further assessment
 
 ## Generation

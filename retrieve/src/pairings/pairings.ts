@@ -1,23 +1,29 @@
 import { GameID } from "boardGameAtlas.js";
 import { randomInt } from "crypto";
 import { GameCategory } from "csv.js";
-import { writeFile } from "fs/promises";
+import { readFileJSON, writeFileJSON } from "fileHelp.js";
+import { readFile, writeFile } from "fs/promises";
 import prompts from "prompts";
 import { FullGame, RetrieveService } from "retrieve/retrieveService.js";
+import {
+  GameResult,
+  getWinner,
+  loadOpeningResults,
+  VoteResult,
+} from "tournament/tournament.js";
 
-export const basePairingsFile = "./resources/basePairings.json";
-export const winnerPairingsFile = "./resources/basePairings.json";
-export const loserPairingsFile = "./resources/basePairings.json";
+const basePairingsFile = "./resources/basePairings.json";
+const winnerPairingsFile = "./resources/basePairings.json";
+const loserPairingsFile = "./resources/basePairings.json";
+
+export interface GameIDName {
+  name: string;
+  id: GameID;
+}
 
 export interface Pairing {
-  game1: {
-    id: GameID;
-    name: string;
-  };
-  game2: {
-    id: GameID;
-    name: string;
-  };
+  game1: GameIDName;
+  game2: GameIDName;
 }
 
 interface ScoringGame {
@@ -80,6 +86,10 @@ export async function pairings() {
   }
 }
 
+/**
+ * Generate the Pairings for the starting tournament
+ * @param service
+ */
 async function basePairings(service: RetrieveService) {
   console.log("\nGenerating pairs for base round");
   const bracketGames = service.games.filter(
@@ -92,12 +102,74 @@ async function basePairings(service: RetrieveService) {
   printPairings(pairings);
 
   console.log("\nWriting pairings to disk");
-  await writeFile(basePairingsFile, JSON.stringify(pairings, null, "\t"));
+  writeFileJSON(basePairingsFile, pairings);
 }
 
-async function loserPairings(service: RetrieveService) {}
+/**
+ * Generate the pairings for the loser bracket using results from the opening round
+ * @param service
+ */
+async function loserPairings(service: RetrieveService) {
+  console.log("\nGenerating pairs for loser round");
+  const openingResults = await loadOpeningResults();
+  if (openingResults === undefined) {
+    throw new Error("Opening results file does not exist");
+  }
 
-async function winnerPairings(service: RetrieveService) {}
+  const losers = openingResults.results.map((res) => {
+    return getWinner(res).id === res.game1.id ? res.game2 : res.game1;
+  });
+
+  const pairings = generateBracketPairings(service, losers);
+
+  console.log(`\nSuccessfully generated ${pairings.length} pairings\n\n`);
+  printPairings(pairings);
+
+  console.log("\nWriting pairings to disk");
+  writeFileJSON(loserPairingsFile, pairings);
+}
+
+/**
+ * Generate the pairings for the winner bracket using results from the opening round
+ * @param service
+ */
+async function winnerPairings(service: RetrieveService) {
+  console.log("\nGenerating pairs for winner round");
+  const openingResults = await loadOpeningResults();
+  if (openingResults === undefined) {
+    throw new Error("Opening results file does not exist");
+  }
+
+  const winners = openingResults.results.map((res) => {
+    return getWinner(res);
+  });
+
+  const pairings = generateBracketPairings(service, winners);
+
+  console.log(`\nSuccessfully generated ${pairings.length} pairings\n\n`);
+  printPairings(pairings);
+
+  console.log("\nWriting pairings to disk");
+  writeFileJSON(winnerPairingsFile, pairings);
+}
+
+/**
+ * Generate the round1 pairings for a tournament bracket
+ */
+function generateBracketPairings(
+  service: RetrieveService,
+  filteredResults: GameResult[]
+): Pairing[] {
+  const gameMap = service.gamesAsMap();
+  const games = filteredResults.map((g) => {
+    const game = gameMap.get(g.id);
+    if (game === undefined) {
+      throw new Error(`${g.id} - ${g.name}: not found in map`);
+    }
+    return game;
+  });
+  return generatePairings(games);
+}
 
 /**
  * Generate a series of pairings for a given array of games
@@ -233,4 +305,15 @@ function getScore(g1: FullGame, g2: FullGame) {
   score *= g1.Expansion && g2.Expansion ? ScoringWeights.expansion : 1;
 
   return score;
+}
+
+export async function loadBasePairings() {
+  return readFileJSON<Pairing[]>(basePairingsFile);
+}
+
+export async function loadWinnerPairings() {
+  return readFileJSON<Pairing[]>(winnerPairingsFile);
+}
+export async function loadLoserPairings() {
+  return readFileJSON<Pairing[]>(loserPairingsFile);
 }
