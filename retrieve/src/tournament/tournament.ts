@@ -1,8 +1,11 @@
-import { GameID } from "boardGameAtlas.js";
 import { readFileJSON, writeFileJSON } from "fileHelp.js";
-import { readFile, writeFile } from "fs/promises";
-import { GameIDName, loadBasePairings, Pairing } from "pairings/pairings.js";
-import prompts from "prompts";
+import {
+  GameIDName,
+  loadBasePairings,
+  loadLoserPairings,
+  loadWinnerPairings,
+} from "pairings/pairings.js";
+import prompts, { PromptObject } from "prompts";
 
 // Change this after everyone arrives
 const numVoters = 8;
@@ -31,12 +34,18 @@ export interface BracketResults {
   round3?: VoteResult[];
   quarterFinal?: VoteResult[];
   semiFinal?: VoteResult[];
-  final?: VoteResult[];
+  final?: VoteResult;
 }
 
 export interface OpeningResults {
   results: VoteResult[];
 }
+
+const onCancel = {
+  onCancel: () => {
+    throw new Error("User cancelled entry, cannot continue");
+  },
+};
 
 const programs: prompts.Choice[] = [
   {
@@ -57,24 +66,28 @@ const programs: prompts.Choice[] = [
 ];
 
 export async function tournament() {
-  const selection = await prompts({
-    type: "select",
-    name: "round",
-    message: "Select Tournament Round",
-    choices: programs,
-  });
-
-  try {
-    await selection.round();
-  } catch (e) {
-    console.error(e);
-  }
+  let cancelled = false;
+  const selection = await prompts(
+    {
+      type: "select",
+      name: "round",
+      message: "Select Tournament Round",
+      choices: programs,
+    },
+    {
+      onCancel: () => {
+        cancelled = true;
+      },
+    }
+  );
+  if (cancelled) return;
+  await selection.round();
 }
 
 async function enterOpeningResults() {
   const res = await loadBasePairings();
   if (res === undefined) {
-    throw new Error("Opening results file does not exist");
+    throw new Error("Base pairings file does not exist");
   }
   const pairings: OpeningResults = { results: res };
   for (const pair of pairings.results) {
@@ -84,7 +97,54 @@ async function enterOpeningResults() {
   writeFileJSON(openingResultsFile, pairings);
 }
 
-async function enterWinnerResults() {}
+async function enterWinnerResults() {
+  let results = await loadWinnerResults();
+  if (!results.round1) {
+    const startPairings = await loadWinnerPairings();
+    if (startPairings === undefined) {
+      throw new Error("Winner pairings file does not exist");
+    }
+    results.round1 = startPairings;
+  } else {
+  }
+  results.round1;
+}
+
+async function setupNextRoundPairings(
+  results: BracketResults,
+  inLoserBracket: boolean = false
+) {
+  if (!results.round1) {
+    const startPairings = inLoserBracket
+      ? await loadLoserPairings()
+      : await loadWinnerPairings();
+    if (startPairings === undefined) {
+      throw new Error(
+        `${inLoserBracket ? "Loser" : "Winner"} pairings file does not exist`
+      );
+    }
+    results.round1 = startPairings;
+    return results.round1;
+  }
+
+  if (!results.round2) {
+    // 0 and 11 are bye
+  }
+
+  if (!results.round3) {
+  }
+
+  if (!results.quarterFinal) {
+  }
+
+  if (!results.semiFinal) {
+  }
+
+  if (!results.final) {
+  }
+
+  throw new Error("All data already entered");
+}
 
 async function enterLoserResults() {}
 
@@ -92,7 +152,7 @@ async function enterLoserResults() {}
  * TODO handle loser round case
  * @param result
  */
-function printResult(result: VoteResult, inLoserRound?: boolean) {
+function printResult(result: VoteResult, inLoserBracket: boolean = false) {
   const winner = getWinner(result);
   const loser = winner.id === result.game1.id ? result.game2 : result.game1;
   console.log(`\n\n${winner.name} beats ${loser.name}`);
@@ -100,7 +160,7 @@ function printResult(result: VoteResult, inLoserRound?: boolean) {
   if (winner.votes === loser.votes) {
     console.log("Tie broken by Will");
   }
-  console.log(`${winner.name} advances\n\n`);
+  console.log(`${winner.name} advances\n`);
 }
 
 export function getLoser(result: VoteResult) {
@@ -140,21 +200,28 @@ async function GetPairingResult(result: VoteResult) {
     },
   ];
 
-  const vote1 = await prompts({
-    type: "number",
-    name: "count",
-    message: `Enter Number of Votes for ${result.game1.name}`,
-    initial: 0,
-    min: 0,
-    max: numVoters,
-  });
+  console.log(`\n${result.game1.name} vs ${result.game2.name}`);
+  const vote1 = await prompts(
+    {
+      type: "number",
+      name: "count",
+      message: `Enter Number of Votes for ${result.game1.name}`,
+      initial: 0,
+      min: 0,
+      max: numVoters,
+    },
+    onCancel
+  );
 
-  const will = await prompts({
-    type: "select",
-    name: "data",
-    message: "Select Game Will Voted For",
-    choices: gameChoice,
-  });
+  const will = await prompts(
+    {
+      type: "select",
+      name: "data",
+      message: "Select Game Will Voted For",
+      choices: gameChoice,
+    },
+    onCancel
+  );
 
   result.game1.votes = vote1.count;
   result.game2.votes = numVoters - vote1.count;

@@ -4,7 +4,8 @@
   "scripts": {
     "clean": "rm -r dist/ build/",
     "build": " yarn esbuild esbuild.ts --platform=node --outdir=build --format=esm && node build/esbuild.js",
-    "start": "run build && cd dist && node main.mjs"
+    "buildAndStart": "run build && run start",
+    "start": "cd dist && node main.mjs"
   },
   "dependencies": {
     "esbuild": "^0.17.10",

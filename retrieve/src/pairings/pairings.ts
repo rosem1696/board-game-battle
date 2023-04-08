@@ -2,7 +2,6 @@ import { GameID } from "boardGameAtlas.js";
 import { randomInt } from "crypto";
 import { GameCategory } from "csv.js";
 import { readFileJSON, writeFileJSON } from "fileHelp.js";
-import { readFile, writeFile } from "fs/promises";
 import prompts from "prompts";
 import { FullGame, RetrieveService } from "retrieve/retrieveService.js";
 import {
@@ -71,13 +70,22 @@ export async function pairings() {
   if (!service) {
     return;
   }
+  let cancelled = false;
+  const selection = await prompts(
+    {
+      type: "select",
+      name: "round",
+      message: "Select Round",
+      choices: programs,
+    },
+    {
+      onCancel: () => {
+        cancelled = true;
+      },
+    }
+  );
 
-  const selection = await prompts({
-    type: "select",
-    name: "round",
-    message: "Select Round",
-    choices: programs,
-  });
+  if (cancelled) return;
 
   try {
     await selection.round(service);

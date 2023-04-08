@@ -23,14 +23,28 @@ const programs: prompts.Choice[] = [
 ];
 
 async function main() {
-  const selection = await prompts({
-    type: "select",
-    name: "program",
-    message: "Main Menu",
-    choices: programs,
-  });
+  let cancelled = false;
+  const selection = await prompts(
+    {
+      type: "select",
+      name: "program",
+      message: "Main Menu",
+      choices: programs,
+    },
+    {
+      onCancel: () => {
+        cancelled = true;
+      },
+    }
+  );
 
-  await selection.program();
+  if (cancelled) return;
+
+  try {
+    await selection.program();
+  } catch (e) {
+    console.error(e);
+  }
 }
 
 await main();
