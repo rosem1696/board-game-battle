@@ -10,7 +10,7 @@ import {
 import prompts, { PromptObject } from "prompts";
 
 // Change this after everyone arrives
-const numVoters = 8;
+const numVoters = 9;
 
 export const openingResultsFile = "./resources/openingResults.json";
 export const winnerResultsFile = "./resources/winnerResults.json";

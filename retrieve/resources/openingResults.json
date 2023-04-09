@@ -1,0 +1,708 @@
+{
+  "results": [
+    {
+      "game1": {
+        "id": "5cIeJmEkyx",
+        "name": "Suspicion",
+        "votes": 6,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "FRrqhITHTi",
+        "name": "Cosmic Factory",
+        "votes": 3,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "1bVoEWFnmJ",
+        "name": "Eight-Minute Empire",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "74f9mzbw9Y",
+        "name": "Exploding Kittens",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "iLClIEykRr",
+        "name": "Boss Monster 2: The Next Level",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "UTdsKo62LB",
+        "name": "Eko",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "4DV6UZGlhQ",
+        "name": "Super-Skill Pinball: 4-Cade",
+        "votes": 0,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "AqJmP6K78K",
+        "name": "Burgle Bros.",
+        "votes": 9,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "XAUePGTBqU",
+        "name": "Stratego",
+        "votes": 3,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "yKJz4SjHER",
+        "name": "Trash Pandas",
+        "votes": 6,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "b1nBQaNdH6",
+        "name": "Istanbul",
+        "votes": 7,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "gg0c6GTY6v",
+        "name": "What the Heck?",
+        "votes": 2,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "Hg5S2Wjc2E",
+        "name": "Railroad Ink: Blazing Red",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "OCv0s54FtD",
+        "name": "The Game of Life",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "7zzrahBDY6",
+        "name": "Machi Koro",
+        "votes": 2,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "lRjLm64IIk",
+        "name": "Whitehall Mystery",
+        "votes": 7,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "PCGNAxEgDH",
+        "name": "Vault Wars",
+        "votes": 7,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "fmSDkAqJbH",
+        "name": "Modern Art",
+        "votes": 2,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "k3tR4teJyU",
+        "name": "The Hunger",
+        "votes": 7,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "ZUakWd2zhS",
+        "name": "Machi Koro Legacy",
+        "votes": 2,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "aPOzLfTSS9",
+        "name": "Scythe: Invaders from Afar",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "wU5YAJMv79",
+        "name": "Le Havre",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "Yq4y7EwjYD",
+        "name": "Bargain Quest",
+        "votes": 4,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "nHJNyAWsoo",
+        "name": "Mysterium",
+        "votes": 5,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "Y2WacykMm5",
+        "name": "King of Tokyo",
+        "votes": 7,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "qT7fflbpLA",
+        "name": "Metro X",
+        "votes": 2,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "vPUTmVPc1E",
+        "name": "Kingdom Builder",
+        "votes": 8,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "gwrPVscwpH",
+        "name": "eBay Buy It Now",
+        "votes": 1,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "2e7YkCwYCY",
+        "name": "Railroad Ink: Deep Blue Edition",
+        "votes": 6,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "Teb9TRnTrd",
+        "name": "King Me",
+        "votes": 3,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "LuBwpFWPzP",
+        "name": "Ladies & Gentlemen",
+        "votes": 8,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "IGCnaN9aOy",
+        "name": "Flick 'em Up!",
+        "votes": 1,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "jgUiAHDCTK",
+        "name": "Captain Sonar",
+        "votes": 7,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "w3Yq6jjvm0",
+        "name": "The Great Dalmuti",
+        "votes": 2,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "e05OAjtFba",
+        "name": "Ship Shape",
+        "votes": 8,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "ezX2Sjg3B0",
+        "name": "Fort",
+        "votes": 1,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "El8zJPnpYZ",
+        "name": "King of Tokyo: Power Up",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "lwYIQtJW45",
+        "name": "5211",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "jWH0oX6i05",
+        "name": "New York Zoo",
+        "votes": 6,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "B5suE6HYs5",
+        "name": "Wasteland Express Delivery Service",
+        "votes": 3,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "bEWIcbBOS9",
+        "name": "Map Maker",
+        "votes": 5,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "4rn2FX1Eon",
+        "name": "Forbidden Island",
+        "votes": 4,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "cb1DcPrnkz",
+        "name": "Secret Hitler",
+        "votes": 7,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "5qg3tj0p26",
+        "name": "Dungeon Drop",
+        "votes": 2,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "RvQRrz0gEL",
+        "name": "Castles of Mad King Ludwig",
+        "votes": 6,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "sMTDq4Zeif",
+        "name": "Five Tribes",
+        "votes": 3,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "on5IaANEQh",
+        "name": "The Networks",
+        "votes": 8,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "f6PbBuaK1T",
+        "name": "The Pursuit of Happiness",
+        "votes": 1,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "XoD4IPakPb",
+        "name": "Payday",
+        "votes": 8,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "EHIBhxHOTU",
+        "name": "Vikings",
+        "votes": 1,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "y56td93iXw",
+        "name": "Dead of Winter: A Crossroads Game",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "EbkR3j2kFD",
+        "name": "Planted",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "5DSDFSJUyV",
+        "name": "Coup Rebellion G54",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "rdnyMHA086",
+        "name": "Machi Koro 2",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "Q1EXFOrhOv",
+        "name": "Cutthroat Kingdoms",
+        "votes": 8,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "btFnlGIdZD",
+        "name": "Near and Far",
+        "votes": 1,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "sHZuFrrs8U",
+        "name": "Silver & Gold",
+        "votes": 5,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "L2xBNjxZjk",
+        "name": "Gizmos",
+        "votes": 4,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "mce5HZPnF5",
+        "name": "Pandemic Legacy: Season 1",
+        "votes": 5,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "fogKPrFHnp",
+        "name": "Welcome to the Dungeon",
+        "votes": 4,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "PpJ8SBRihR",
+        "name": "Resident Evil Deck Building Game \"Nightmare Edition\"",
+        "votes": 4,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "3tAwjRDw8q",
+        "name": "Raiders of the North Sea",
+        "votes": 5,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "XUeYK7XZwb",
+        "name": "Calico",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "TxsyDyZ2TT",
+        "name": "Twice As Clever!",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "0su2Yjd7xp",
+        "name": "Bargain Quest: The Black Market Expansion",
+        "votes": 5,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "8p95ht7iRU",
+        "name": "Beagle or Bagel",
+        "votes": 4,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "YL5DYnG28Y",
+        "name": "The Resistance",
+        "votes": 1,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "SKVJcaynta",
+        "name": "Throw Throw Burrito: Original Edition",
+        "votes": 8,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "xguwNPA9JM",
+        "name": "World Championship Russian Roulette",
+        "votes": 8,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "EiVU77dgUm",
+        "name": "Ticket to Ride: New York",
+        "votes": 1,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "0Z20rVZ9GQ",
+        "name": "Axis & Allies",
+        "votes": 8,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "EL3YmDLY6W",
+        "name": "Risk",
+        "votes": 1,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "Y2CAqTW0oJ",
+        "name": "One Night Ultimate Werewolf",
+        "votes": 1,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "fvHGKRozKX",
+        "name": "Rose Ceremony",
+        "votes": 8,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "MQcEH8C8Aa",
+        "name": "Boss Monster",
+        "votes": 5,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "8CUN0m5KrE",
+        "name": "Pixel Glory",
+        "votes": 4,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "0sd39XHoO7",
+        "name": "Saboteur",
+        "votes": 6,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "mx3jWPnpi4",
+        "name": "Scythe: The Wind Gambit",
+        "votes": 3,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "AL6Cd1STP9",
+        "name": "Shelfie Stacker",
+        "votes": 1,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "sjWj7oJrWL",
+        "name": "Concept",
+        "votes": 8,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "T5lx9elSDt",
+        "name": "Love Letter",
+        "votes": 6,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "QqDYXlJSdh",
+        "name": "Rise of Tribes",
+        "votes": 3,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "1dWE5BIcOm",
+        "name": "Star Realms",
+        "votes": 5,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "RgJ6C3uI3s",
+        "name": "Don't Get Got!",
+        "votes": 4,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "zVcRIELAGe",
+        "name": "Codenames: Deep Undercover",
+        "votes": 6,
+        "votedByWill": false,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "WSgfcwxVVH",
+        "name": "Tofu Kingdom",
+        "votes": 3,
+        "votedByWill": true,
+        "numVoters": 9
+      }
+    },
+    {
+      "game1": {
+        "id": "yqR4PtpO8X",
+        "name": "Scythe",
+        "votes": 3,
+        "votedByWill": true,
+        "numVoters": 9
+      },
+      "game2": {
+        "id": "E0mFEBfQuo",
+        "name": "5-Minute Mystery",
+        "votes": 6,
+        "votedByWill": false,
+        "numVoters": 9
+      }
+    }
+  ]
+}
