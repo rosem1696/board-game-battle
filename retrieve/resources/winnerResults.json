@@ -1,0 +1,798 @@
+{
+	"round1": [
+		{
+			"game1": {
+				"id": "vPUTmVPc1E",
+				"name": "Kingdom Builder",
+				"votes": 2,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "LuBwpFWPzP",
+				"name": "Ladies & Gentlemen",
+				"votes": 7,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "sjWj7oJrWL",
+				"name": "Concept",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "E0mFEBfQuo",
+				"name": "5-Minute Mystery",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "nHJNyAWsoo",
+				"name": "Mysterium",
+				"votes": 7,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "SKVJcaynta",
+				"name": "Throw Throw Burrito: Original Edition",
+				"votes": 2,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "on5IaANEQh",
+				"name": "The Networks",
+				"votes": 7,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "aPOzLfTSS9",
+				"name": "Scythe: Invaders from Afar",
+				"votes": 2,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "cb1DcPrnkz",
+				"name": "Secret Hitler",
+				"votes": 7,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "jgUiAHDCTK",
+				"name": "Captain Sonar",
+				"votes": 2,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "MQcEH8C8Aa",
+				"name": "Boss Monster",
+				"votes": 7,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "yKJz4SjHER",
+				"name": "Trash Pandas",
+				"votes": 2,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "b1nBQaNdH6",
+				"name": "Istanbul",
+				"votes": 5,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "y56td93iXw",
+				"name": "Dead of Winter: A Crossroads Game",
+				"votes": 4,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "sHZuFrrs8U",
+				"name": "Silver & Gold",
+				"votes": 1,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "RvQRrz0gEL",
+				"name": "Castles of Mad King Ludwig",
+				"votes": 8,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "5DSDFSJUyV",
+				"name": "Coup Rebellion G54",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "fvHGKRozKX",
+				"name": "Rose Ceremony",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "jWH0oX6i05",
+				"name": "New York Zoo",
+				"votes": 8,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "3tAwjRDw8q",
+				"name": "Raiders of the North Sea",
+				"votes": 1,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "1bVoEWFnmJ",
+				"name": "Eight-Minute Empire",
+				"votes": 2,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "bEWIcbBOS9",
+				"name": "Map Maker",
+				"votes": 7,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "k3tR4teJyU",
+				"name": "The Hunger",
+				"votes": 7,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "0su2Yjd7xp",
+				"name": "Bargain Quest: The Black Market Expansion",
+				"votes": 2,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "mce5HZPnF5",
+				"name": "Pandemic Legacy: Season 1",
+				"votes": 8,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "UTdsKo62LB",
+				"name": "Eko",
+				"votes": 1,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "T5lx9elSDt",
+				"name": "Love Letter",
+				"votes": 1,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "e05OAjtFba",
+				"name": "Ship Shape",
+				"votes": 8,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "El8zJPnpYZ",
+				"name": "King of Tokyo: Power Up",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "Y2WacykMm5",
+				"name": "King of Tokyo",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "1dWE5BIcOm",
+				"name": "Star Realms",
+				"votes": 2,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "5cIeJmEkyx",
+				"name": "Suspicion",
+				"votes": 7,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "Hg5S2Wjc2E",
+				"name": "Railroad Ink: Blazing Red",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "XoD4IPakPb",
+				"name": "Payday",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "XUeYK7XZwb",
+				"name": "Calico",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "AqJmP6K78K",
+				"name": "Burgle Bros.",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "lRjLm64IIk",
+				"name": "Whitehall Mystery",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "0Z20rVZ9GQ",
+				"name": "Axis & Allies",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "Q1EXFOrhOv",
+				"name": "Cutthroat Kingdoms",
+				"votes": 9,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "zVcRIELAGe",
+				"name": "Codenames: Deep Undercover",
+				"votes": 0,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "xguwNPA9JM",
+				"name": "World Championship Russian Roulette",
+				"votes": 8,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "PCGNAxEgDH",
+				"name": "Vault Wars",
+				"votes": 1,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"id": "2e7YkCwYCY",
+				"name": "Railroad Ink: Deep Blue Edition",
+				"votes": 9,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"id": "0sd39XHoO7",
+				"name": "Saboteur",
+				"votes": 0,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		}
+	],
+	"round2": [
+		{
+			"game1": {
+				"name": "Ladies & Gentlemen",
+				"id": "LuBwpFWPzP",
+				"votedByWill": true,
+				"votes": 9,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "",
+				"id": "",
+				"votedByWill": false,
+				"votes": 0,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Concept",
+				"id": "sjWj7oJrWL",
+				"votes": 1,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Mysterium",
+				"id": "Mysterium",
+				"votes": 8,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "The Networks",
+				"id": "on5IaANEQh",
+				"votes": 4,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Secret Hitler",
+				"id": "Secret Hitler",
+				"votes": 5,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Boss Monster",
+				"id": "MQcEH8C8Aa",
+				"votes": 4,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Istanbul",
+				"id": "Istanbul",
+				"votes": 5,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Castles of Mad King Ludwig",
+				"id": "RvQRrz0gEL",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Coup Rebellion G54",
+				"id": "Coup Rebellion G54",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "New York Zoo",
+				"id": "jWH0oX6i05",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Map Maker",
+				"id": "Map Maker",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "The Hunger",
+				"id": "k3tR4teJyU",
+				"votedByWill": true,
+				"votes": 9,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "",
+				"id": "",
+				"votedByWill": false,
+				"votes": 0,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Pandemic Legacy: Season 1",
+				"id": "mce5HZPnF5",
+				"votes": 5,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Ship Shape",
+				"id": "Ship Shape",
+				"votes": 4,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "King of Tokyo",
+				"id": "Y2WacykMm5",
+				"votes": 3,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Suspicion",
+				"id": "Suspicion",
+				"votes": 6,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Payday",
+				"id": "XoD4IPakPb",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Calico",
+				"id": "Calico",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Whitehall Mystery",
+				"id": "lRjLm64IIk",
+				"votes": 5,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Cutthroat Kingdoms",
+				"id": "Cutthroat Kingdoms",
+				"votes": 4,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "World Championship Russian Roulette",
+				"id": "xguwNPA9JM",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Railroad Ink: Deep Blue Edition",
+				"id": "Railroad Ink: Deep Blue Edition",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		}
+	],
+	"round3": [
+		{
+			"game1": {
+				"name": "Ladies & Gentlemen",
+				"id": "LuBwpFWPzP",
+				"votes": 7,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Mysterium",
+				"id": "Mysterium",
+				"votes": 2,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Secret Hitler",
+				"id": "Secret Hitler",
+				"votedByWill": true,
+				"votes": 9,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "",
+				"id": "",
+				"votedByWill": false,
+				"votes": 0,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Istanbul",
+				"id": "Istanbul",
+				"votedByWill": true,
+				"votes": 9,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "",
+				"id": "",
+				"votedByWill": false,
+				"votes": 0,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Castles of Mad King Ludwig",
+				"id": "RvQRrz0gEL",
+				"votes": 4,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "New York Zoo",
+				"id": "New York Zoo",
+				"votes": 5,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "The Hunger",
+				"id": "k3tR4teJyU",
+				"votes": 1,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Pandemic Legacy: Season 1",
+				"id": "Pandemic Legacy: Season 1",
+				"votes": 8,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Suspicion",
+				"id": "Suspicion",
+				"votedByWill": true,
+				"votes": 9,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "",
+				"id": "",
+				"votedByWill": false,
+				"votes": 0,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Payday",
+				"id": "XoD4IPakPb",
+				"votedByWill": true,
+				"votes": 9,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "",
+				"id": "",
+				"votedByWill": false,
+				"votes": 0,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Whitehall Mystery",
+				"id": "lRjLm64IIk",
+				"votes": 6,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "World Championship Russian Roulette",
+				"id": "World Championship Russian Roulette",
+				"votes": 3,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		}
+	],
+	"quarterFinal": [
+		{
+			"game1": {
+				"name": "Ladies & Gentlemen",
+				"id": "LuBwpFWPzP",
+				"votes": 4,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Secret Hitler",
+				"id": "Secret Hitler",
+				"votes": 5,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Istanbul",
+				"id": "Istanbul",
+				"votes": 2,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "New York Zoo",
+				"id": "New York Zoo",
+				"votes": 7,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Pandemic Legacy: Season 1",
+				"id": "Pandemic Legacy: Season 1",
+				"votes": 5,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Suspicion",
+				"id": "Suspicion",
+				"votes": 4,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Payday",
+				"id": "XoD4IPakPb",
+				"votes": 5,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Whitehall Mystery",
+				"id": "Whitehall Mystery",
+				"votes": 4,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		}
+	],
+	"semiFinal": [
+		{
+			"game1": {
+				"name": "Secret Hitler",
+				"id": "Secret Hitler",
+				"votes": 4,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "New York Zoo",
+				"id": "New York Zoo",
+				"votes": 5,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		},
+		{
+			"game1": {
+				"name": "Pandemic Legacy: Season 1",
+				"id": "Pandemic Legacy: Season 1",
+				"votes": 3,
+				"votedByWill": false,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Payday",
+				"id": "Payday",
+				"votes": 6,
+				"votedByWill": true,
+				"numVoters": 9
+			}
+		}
+	],
+	"final": [
+		{
+			"game1": {
+				"name": "New York Zoo",
+				"id": "New York Zoo",
+				"votes": 4,
+				"votedByWill": true,
+				"numVoters": 9
+			},
+			"game2": {
+				"name": "Payday",
+				"id": "Payday",
+				"votes": 5,
+				"votedByWill": false,
+				"numVoters": 9
+			}
+		}
+	]
+}
